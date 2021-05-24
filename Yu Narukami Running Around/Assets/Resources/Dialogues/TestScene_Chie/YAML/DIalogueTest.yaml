@@ -1,0 +1,127 @@
+- CalendarDate:
+  - 1:
+    - 03/05
+    - TimeOfDay:
+      - 1:
+        - Early Morning
+        - Chie: Morning, Narukami. Aren't you running late for school?
+        - Chie: Get going, then, leave me alone.
+        - EOD: EOD
+      - 2:
+        - Morning
+        - Chie: Hello again, Narukami. Have you had your morning coffee yet?
+        - LayerToReturnTo: LayerToReturnTo
+        - ?:
+          - 1: 
+            - Yeah.
+            - Chie: I see. Coffee is good for you.
+            - GoBack: GoBack
+          - 2:
+            - Nah.
+            - Chie: I see. Coffee isn't that good for someone your age.
+            - GoBack: GoBack
+          - 3:
+            - ...
+            - Chie: Okay...
+            - GoBack: GoBack
+        - Chie: Anyway, i should get going now.
+        - Chie: See ya!
+        - EOD: EOD
+      - 3:
+        - After School
+        - Chie: Hey there, Yu.
+        - Chie: What do you think about this demo?
+        - LayerToReturnTo: LayerToReturnTo
+        - ?:
+          - 1:
+            - It shows potential
+            - Chie: I know, right!
+            - Chie: But there is still a lot of stuff it needs.
+            - GoBack: GoBack
+          - 2:
+            - It's pretty lackluster
+            - Chie: You're not entirely wrong.
+            - Chie: But don't be so negative about it!
+            - GoBack: GoBack
+          - 3:
+            - ...
+            - Chie: ...
+            - Chie: Right...
+            - GoBack: GoBack
+        - Chie: Anyway, i have a character portrait that talks!
+        - Chie: Adachi does not, just to show that NPC's like him can exist.
+        - Chie: Try talking to the box opposite of me, to see how phone conversations can look like.
+        - Chie: Bye!
+        - EOD: EOD
+      - 4:
+        - Afternoon
+        - Chie: Oh boy, do i love existing here
+        - EOD: EOD
+      - 5:
+        - Evening
+        - Chie: Narukami, shouldn't you be in bed now? It is pretty late.
+        - Chie: Go on, get going.
+        - EOD: EOD
+  - 2:
+    - 04/05
+    - TimeOfDay:
+      - 1:
+        - Early Morning
+        - Chie: Morning again, Narukami.
+        - Chie: Today is another day.
+        - EOD: EOD
+      - 2:
+        - Morning
+        - Chie: Hello again, Narukami. Have you had your morning coffee yet?
+        - LayerToReturnTo: LayerToReturnTo
+        - ?:
+          - 1: 
+            - Again, yes.
+            - Chie: Sassy boy. I see. Dojima has taught you well.
+            - GoBack: GoBack
+          - 2:
+            - Nah.
+            - Chie: I see. Coffee isn't that good for someone your age.
+            - GoBack: GoBack
+          - 3:
+            - ...
+            - Chie: Okay...
+            - GoBack: GoBack
+        - Chie: Anyway, i should get going now.
+        - Chie: See ya!
+        - EOD: EOD
+      - 3:
+        - After School
+        - Chie: Hey there, Yu.
+        - Chie: What do you think about this demo?
+        - LayerToReturnTo: LayerToReturnTo
+        - ?:
+          - 1:
+            - It shows potential
+            - Chie: I know, right!
+            - Chie: But there is still a lot of stuff it needs.
+            - GoBack: GoBack
+          - 2:
+            - It's pretty lackluster
+            - Chie: You're not entirely wrong.
+            - Chie: But don't be so negative about it!
+            - GoBack: GoBack
+          - 3:
+            - ...
+            - Chie: ...
+            - Chie: Right...
+            - GoBack: GoBack
+        - Chie: Anyway, i have a character portrait that talks!
+        - Chie: Adachi does not, just to show that NPC's like him can exist.
+        - Chie: Try talking to the box opposite of me, to see how phone conversations can look like.
+        - Chie: Bye!
+        - EOD: EOD
+      - 4:
+        - Afternoon
+        - Chie: Oh boy, do i love existing here
+        - EOD: EOD
+      - 5:
+        - Evening
+        - Chie: Narukami, shouldn't you be in bed now? It is pretty late.
+        - Chie: Go on, get going.
+        - EOD: EOD

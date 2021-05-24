@@ -1,0 +1,363 @@
+[
+  {
+    "CalendarDate": [
+      {
+        "1": [
+          "03/05",
+          {
+            "TimeOfDay": [
+              {
+                "1": [
+                  "Early Morning",
+                  {
+                    "Naoto": "Morning, Narukami. Aren't you running late for school?"
+                  },
+                  {
+                    "Naoto": "Get going, then, leave me alone."
+                  },
+                  {
+                    "EOD": "EOD"
+                  }
+                ]
+              },
+              {
+                "2": [
+                  "Morning",
+                  {
+                    "Naoto": "Hello again, Narukami. Have you had your morning coffee yet?"
+                  },
+                  {
+                    "LayerToReturnTo": "LayerToReturnTo"
+                  },
+                  {
+                    "?": [
+                      {
+                        "1": [
+                          "Yeah.",
+                          {
+                            "Naoto": "I see. Coffee is good for you."
+                          },
+                          {
+                            "GoBack": "GoBack"
+                          }
+                        ]
+                      },
+                      {
+                        "2": [
+                          "Nah.",
+                          {
+                            "Naoto": "I see. Coffee isn't that good for someone your age."
+                          },
+                          {
+                            "GoBack": "GoBack"
+                          }
+                        ]
+                      },
+                      {
+                        "3": [
+                          "...",
+                          {
+                            "Naoto": "Okay..."
+                          },
+                          {
+                            "GoBack": "GoBack"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Naoto": "Anyway, i should get going now."
+                  },
+                  {
+                    "Naoto": "See ya!"
+                  },
+                  {
+                    "EOD": "EOD"
+                  }
+                ]
+              },
+              {
+                "3": [
+                  "After School",
+                  {
+                    "Naoto": "Good day, Yu."
+                  },
+                  {
+                    "Naoto": "I am talking to you from a phone. How cool is that?"
+                  },
+                  {
+                    "LayerToReturnTo": "LayerToReturnTo"
+                  },
+                  {
+                    "?": [
+                      {
+                        "1": [
+                          "Radical",
+                          {
+                            "Naoto": "Indeed, I agree!"
+                          },
+                          {
+                            "Naoto": "However this scene still need a lot of functions to be implemented."
+                          },
+                          {
+                            "GoBack": "GoBack"
+                          }
+                        ]
+                      },
+                      {
+                        "2": [
+                          "Not impressed",
+                          {
+                            "Naoto": "You should be."
+                          },
+                          {
+                            "Naoto": "Not everyone can talk to you with a phone in this scene!"
+                          },
+                          {
+                            "GoBack": "GoBack"
+                          }
+                        ]
+                      },
+                      {
+                        "3": [
+                          "...",
+                          {
+                            "Naoto": "..."
+                          },
+                          {
+                            "Naoto": "Hello?"
+                          },
+                          {
+                            "GoBack": "GoBack"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Naoto": "By the way, I also have a character portrait that talks! And my animations can be reused outside of the phone."
+                  },
+                  {
+                    "Naoto": "Try talking to Chie, opposite of me, or Adachi, near the ramp, to see all the different types of conversations."
+                  },
+                  {
+                    "Naoto": "Anyway, talk to you later!"
+                  },
+                  {
+                    "EOD": "EOD"
+                  }
+                ]
+              },
+              {
+                "4": [
+                  "Afternoon",
+                  {
+                    "Naoto": "Oh boy, do i love existing here"
+                  },
+                  {
+                    "EOD": "EOD"
+                  }
+                ]
+              },
+              {
+                "5": [
+                  "Evening",
+                  {
+                    "Naoto": "Narukami, shouldn't you be in bed now? It is pretty late."
+                  },
+                  {
+                    "Naoto": "Go on, get going."
+                  },
+                  {
+                    "EOD": "EOD"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "2": [
+          "04/05",
+          {
+            "TimeOfDay": [
+              {
+                "1": [
+                  "Early Morning",
+                  {
+                    "Naoto": "Morning again, Narukami."
+                  },
+                  {
+                    "Naoto": "Today is another day."
+                  },
+                  {
+                    "EOD": "EOD"
+                  }
+                ]
+              },
+              {
+                "2": [
+                  "Morning",
+                  {
+                    "Naoto": "Hello again, Narukami. Have you had your morning coffee yet?"
+                  },
+                  {
+                    "LayerToReturnTo": "LayerToReturnTo"
+                  },
+                  {
+                    "?": [
+                      {
+                        "1": [
+                          "Again, yes.",
+                          {
+                            "Naoto": "Sassy boy. I see. Dojima has taught you well."
+                          },
+                          {
+                            "GoBack": "GoBack"
+                          }
+                        ]
+                      },
+                      {
+                        "2": [
+                          "Nah.",
+                          {
+                            "Naoto": "I see. Coffee isn't that good for someone your age."
+                          },
+                          {
+                            "GoBack": "GoBack"
+                          }
+                        ]
+                      },
+                      {
+                        "3": [
+                          "...",
+                          {
+                            "Naoto": "Okay..."
+                          },
+                          {
+                            "GoBack": "GoBack"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Naoto": "Anyway, i should get going now."
+                  },
+                  {
+                    "Naoto": "See ya!"
+                  },
+                  {
+                    "EOD": "EOD"
+                  }
+                ]
+              },
+              {
+                "3": [
+                  "After School",
+                  {
+                    "Naoto": "Hey there, Yu."
+                  },
+                  {
+                    "Naoto": "What do you think about this demo?"
+                  },
+                  {
+                    "LayerToReturnTo": "LayerToReturnTo"
+                  },
+                  {
+                    "?": [
+                      {
+                        "1": [
+                          "It shows potential",
+                          {
+                            "Naoto": "I know, right!"
+                          },
+                          {
+                            "Naoto": "But there is still a lot of stuff it needs."
+                          },
+                          {
+                            "GoBack": "GoBack"
+                          }
+                        ]
+                      },
+                      {
+                        "2": [
+                          "It's pretty lackluster",
+                          {
+                            "Naoto": "You're not entirely wrong."
+                          },
+                          {
+                            "Naoto": "But don't be so negative about it!"
+                          },
+                          {
+                            "GoBack": "GoBack"
+                          }
+                        ]
+                      },
+                      {
+                        "3": [
+                          "...",
+                          {
+                            "Naoto": "..."
+                          },
+                          {
+                            "Naoto": "Right..."
+                          },
+                          {
+                            "GoBack": "GoBack"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Naoto": "Anyway, i have a character portrait that talks!"
+                  },
+                  {
+                    "Naoto": "Adachi does not, just to show that NPC's like him can exist."
+                  },
+                  {
+                    "Naoto": "Try talking to the box opposite of me, to see how phone conversations can look like."
+                  },
+                  {
+                    "Naoto": "Bye!"
+                  },
+                  {
+                    "EOD": "EOD"
+                  }
+                ]
+              },
+              {
+                "4": [
+                  "Afternoon",
+                  {
+                    "Naoto": "Oh boy, do i love existing here"
+                  },
+                  {
+                    "EOD": "EOD"
+                  }
+                ]
+              },
+              {
+                "5": [
+                  "Evening",
+                  {
+                    "Naoto": "Narukami, shouldn't you be in bed now? It is pretty late."
+                  },
+                  {
+                    "Naoto": "Go on, get going."
+                  },
+                  {
+                    "EOD": "EOD"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

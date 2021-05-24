@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Naoto_Worried
+  m_Controller: {fileID: 9100000, guid: 91ac77a333a89e5478f5e31a13185c62, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 9c9a3f354e890944da16fdd261d9b592, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6b53e04bc5eef92428b61dbd02dc9997, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bdce367cd0ca60f469251540ca0fdb61, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2d1ad498c7cc5474e9141e3171515fdd, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e7f799b0cd71fb849b2d1512977fa550, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 08b0ba603c3ab5e4097cfb57a78edb35, type: 2}

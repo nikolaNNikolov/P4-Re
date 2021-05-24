@@ -1,0 +1,2217 @@
+fileFormatVersion: 2
+guid: f92a00b52409a6c458786a69aea8702f
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -3100369314251171874
+    second: Idle
+  - first:
+      74: 2667949614841947897
+    second: Walk
+  - first:
+      74: -6252994576862822825
+    second: Yu_Body|Idle
+  - first:
+      74: 9207077295802486962
+    second: Yu_Body|Walk
+  - first:
+      74: -6489420768036183385
+    second: Turn Left
+  - first:
+      74: -1891260892074715185
+    second: Turn Right
+  - first:
+      74: 5966380397929246513
+    second: Yu_Body|Turn Left
+  - first:
+      74: -7689129563709204501
+    second: Yu_Body|Turn Right
+  - first:
+      74: 5522812681064789136
+    second: Run
+  - first:
+      74: -8317708902546423246
+    second: Yu_Body|Run
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _lambert48
+    second: {fileID: 2100000, guid: bbef16bbfd8b20d428a065f8507009e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _pc001_01_00
+    second: {fileID: 2100000, guid: 7da1da83871d0f043af869ef98b3aefb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _pc001_01_00_1
+    second: {fileID: 2100000, guid: 8c52f98fb3c99b14ebaf0b4aebf8dcd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _pc001_01_01
+    second: {fileID: 2100000, guid: dc23709623faaa4449bd6be69ac9e5e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _pc001_01_03
+    second: {fileID: 2100000, guid: 7b0c30107845bda4bbbd15e9ce8087e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_sh_mt
+    second: {fileID: 2100000, guid: 6a0e804d2dbb6bc46b24f21ee668fbe5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_sh_mt.001
+    second: {fileID: 2100000, guid: ee1d450546afc36449237de3a6cfca88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_sh_mt.002
+    second: {fileID: 2100000, guid: 411aa5c38f27f884d95bf7992b85f154, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_sh_mt.003
+    second: {fileID: 2100000, guid: f454742f7ffa1914bb5cdf218cb4a05d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_sh_mt.004
+    second: {fileID: 2100000, guid: 3ccca40e4c1ec884695dae74a7a78945, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_sh_mt.005
+    second: {fileID: 2100000, guid: 061ca5bb290404c4eb8e65337f0f5245, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_sh_mt.006
+    second: {fileID: 2100000, guid: ca4976d433ac96d4699ed3372f2613ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_sh_mt.007
+    second: {fileID: 2100000, guid: 787e70395f5bb854aabf4f5d69658fd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_sh_mt.008
+    second: {fileID: 2100000, guid: 887084855a90ac641abdd8f1871a5fd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_sh_mt.009
+    second: {fileID: 2100000, guid: f171aa834785d084488d9427a29fbe8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_sh_mt.010
+    second: {fileID: 2100000, guid: 568698ce93142e349b3e7cd9059c8328, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_sh_mt.011
+    second: {fileID: 2100000, guid: 90fd7a1dfff504041b2a7b0c43c06dc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_sh_mt.012
+    second: {fileID: 2100000, guid: 80ca645d8e5dccf4cad289b114747022, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_sh_mt.013
+    second: {fileID: 2100000, guid: 873bd32f75617e64b80af78741ae7ebb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_sh_mt.014
+    second: {fileID: 2100000, guid: f6201867ee1dc25459ebb54a3774bdf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt
+    second: {fileID: 2100000, guid: 6d2a28e56e1a75a4d884b63e9a43b224, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.001
+    second: {fileID: 2100000, guid: 332986bd623a9304987aa0a9c0372b01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.002
+    second: {fileID: 2100000, guid: a026bfbd04c95f04e888132c772b5c06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.003
+    second: {fileID: 2100000, guid: 555a2ce8180666a41936f44920a250cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.004
+    second: {fileID: 2100000, guid: f515ddc65c5344a4982a9019583f5053, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.005
+    second: {fileID: 2100000, guid: 8fe54b94c6fc9be4bac46628b6c195b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.006
+    second: {fileID: 2100000, guid: 50e0fe0852ec64f4c8b9763bebab8b50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.007
+    second: {fileID: 2100000, guid: e8ca775dab36d6245a64d48219328a13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.008
+    second: {fileID: 2100000, guid: dc2bc7ec4bcf42448acc3507affc691a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.009
+    second: {fileID: 2100000, guid: 7504330619c4a094eb4286200578df60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.010
+    second: {fileID: 2100000, guid: c4e062cb4a554164f93994e1712e4cbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.011
+    second: {fileID: 2100000, guid: 71b11ef2a65b6d0409556d18ed4dea1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.012
+    second: {fileID: 2100000, guid: 3822ed3d2fb3b434087beded5f591f2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.013
+    second: {fileID: 2100000, guid: 05848a685ddcc6c4888aeec8eb51d756, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.014
+    second: {fileID: 2100000, guid: fb9dbe0aa99042d4ba5dfac013c23dc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.015
+    second: {fileID: 2100000, guid: 438b13ace61159f41809114c08713e67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.016
+    second: {fileID: 2100000, guid: c969ac239f8406d42a7f7b7f39183e60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.017
+    second: {fileID: 2100000, guid: adf08a451a955194baed2e674f37c7db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.018
+    second: {fileID: 2100000, guid: c5152f3e7f3168643a7237a6ef55286a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.019
+    second: {fileID: 2100000, guid: c8998acb589ee9845967a0840e6a2908, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.020
+    second: {fileID: 2100000, guid: 98a9f9473545ded43b816459810d8d83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.021
+    second: {fileID: 2100000, guid: 8bf477699b71d69459dc087fd88c5ba7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.022
+    second: {fileID: 2100000, guid: c5554422aaa925c4a927169a2335db7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.023
+    second: {fileID: 2100000, guid: 67e25543737a2b24599036ae7f756e3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.024
+    second: {fileID: 2100000, guid: aeea44831edc7054bb1ef949b2c217e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.025
+    second: {fileID: 2100000, guid: 67d69273d9d13aa41b24592c0ac3a6a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.026
+    second: {fileID: 2100000, guid: 805db700587cc944bb4ef7aa1d0426c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.027
+    second: {fileID: 2100000, guid: b693a49b3a9273a419cea4d67ecd6018, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.028
+    second: {fileID: 2100000, guid: e38725c5d3f3f674c82d4b165f0c75b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.029
+    second: {fileID: 2100000, guid: f62633e7b22993542b44b7e3334ba8d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.030
+    second: {fileID: 2100000, guid: 686246d60571cd8439c19cb433e38ee3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.031
+    second: {fileID: 2100000, guid: dfaf5654e768acb4ca1b8984380e0f0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.032
+    second: {fileID: 2100000, guid: 4b6f1a2fd738e884dad024ccb5447423, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.033
+    second: {fileID: 2100000, guid: abd424dcd5eea7f48bc0caba3fdc841e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.034
+    second: {fileID: 2100000, guid: 1475659c81c72fd4185e6b56fa4388eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.035
+    second: {fileID: 2100000, guid: a284358527da3464db2ca2fe3f077977, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.036
+    second: {fileID: 2100000, guid: 5c0dfda9cef286f41b1b9320ff368d17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.037
+    second: {fileID: 2100000, guid: 074ae0c735ccdf14ebf44c885733dad6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.038
+    second: {fileID: 2100000, guid: 5c51e913897e9ef4bb105c73b2dc6cf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.039
+    second: {fileID: 2100000, guid: 18dbd1332278c2948b35232a77cdda94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.040
+    second: {fileID: 2100000, guid: 1f9d70adeade7cb4ca71315137a34a6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.041
+    second: {fileID: 2100000, guid: b8cdb4c604fee6242b4c02aadade8285, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt.042
+    second: {fileID: 2100000, guid: b063a6bd2e0e69640bbff652e27c6e2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt_1
+    second: {fileID: 2100000, guid: a703acdc8b4f56d47877dba4cf004711, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt_1.001
+    second: {fileID: 2100000, guid: 9226ce0a0a48a7e48a12b88dfdb5d338, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt_1.002
+    second: {fileID: 2100000, guid: 5869793996323b742a502f8f1dd52022, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt_1.003
+    second: {fileID: 2100000, guid: 516231d33d2a615499fd8709b8724630, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt_1.004
+    second: {fileID: 2100000, guid: 49a5cdd300c0e454da70ad4415f11bbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt_1.005
+    second: {fileID: 2100000, guid: 2ff8c349ecbab7847ba67d609bcff071, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt_1.006
+    second: {fileID: 2100000, guid: f613f7d88eab14b4383492f0e3c17808, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt_1.007
+    second: {fileID: 2100000, guid: 14632d2cc9659fd46a4729982d5d1bbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt_1.008
+    second: {fileID: 2100000, guid: ccad1842412016544bc26593b339934a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt_1.009
+    second: {fileID: 2100000, guid: 483864f3512fefd48879fd99153c7f7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt_1.010
+    second: {fileID: 2100000, guid: c6791e5c437326c4f8ea324a9448e875, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt_1.011
+    second: {fileID: 2100000, guid: 6ac97203d3f09b347b2c3bf58342d6d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt_1.012
+    second: {fileID: 2100000, guid: c76d75c146f70b54baed47073d4a5d34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt_1.013
+    second: {fileID: 2100000, guid: 501f843dd34925048b5ab236e28b03b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_no_mt_1.014
+    second: {fileID: 2100000, guid: aacc00383fe26cd49a4665c2a2e59319, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt
+    second: {fileID: 2100000, guid: 85842e0eec1214c4b92e2f4feeeb59fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt.001
+    second: {fileID: 2100000, guid: 8c62ed4258f642e4e9544b22a9c91107, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt.002
+    second: {fileID: 2100000, guid: 966303bd6989cba40b3a4e80c088224d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt.003
+    second: {fileID: 2100000, guid: 307cbcac8497891478f0910f0b2d2086, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt.004
+    second: {fileID: 2100000, guid: 87c72d1d32cfb2b49a4d6e706ac92b26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt.005
+    second: {fileID: 2100000, guid: 83cefd48b44fe8e499aebe708c72de1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt.006
+    second: {fileID: 2100000, guid: 6c7f336081f75df49b8fda830092d7e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt.007
+    second: {fileID: 2100000, guid: a88c2fce8e0acb84c8aebde47e05ff4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt.008
+    second: {fileID: 2100000, guid: 6b9747990e92070489635573578e7515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt.009
+    second: {fileID: 2100000, guid: 46bbf71fa47bdd54a97e979f960a9e8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt.010
+    second: {fileID: 2100000, guid: 69b76b204b9af0843a5edabc9a68e662, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt.011
+    second: {fileID: 2100000, guid: 5eb14bb977447de42bf541ce1f0f737e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt.012
+    second: {fileID: 2100000, guid: 97154af8eaae12e468e4c4da2ab1d7e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt.013
+    second: {fileID: 2100000, guid: de185ab08b934ef4dae36fbe820aa671, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt.014
+    second: {fileID: 2100000, guid: da52895b85c811d4fae4cfdedca29702, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt_1
+    second: {fileID: 2100000, guid: 2748976a1f731aa42ad39396314cf3fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt_1.001
+    second: {fileID: 2100000, guid: e9aec908bd2ec10429d38527c3b101dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt_1.002
+    second: {fileID: 2100000, guid: 2eef76b582bcc31468debdc828096af5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt_1.003
+    second: {fileID: 2100000, guid: d7551eb7e4333db4ea6cc815a626e3be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt_1.004
+    second: {fileID: 2100000, guid: cbf64692ecf47b44c8e6813634249e2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt_1.005
+    second: {fileID: 2100000, guid: 045ce2fbff9601a48a0bad0334aabee2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt_1.006
+    second: {fileID: 2100000, guid: a29712f591d80374090e85e225ee61ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt_1.007
+    second: {fileID: 2100000, guid: 19ec57dc5e0f3514fab5d19c325033cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt_1.008
+    second: {fileID: 2100000, guid: 7b2fd92d2ff7a4d438b1e922a248d69a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt_1.009
+    second: {fileID: 2100000, guid: 8f7573527710def40bf48b2ffb31d142, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt_1.010
+    second: {fileID: 2100000, guid: 03584e41d31fe70439f50432289d97b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt_1.011
+    second: {fileID: 2100000, guid: 14dd3301c8d856b4aa7237e8807760ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt_1.012
+    second: {fileID: 2100000, guid: cb41a1f79507a894989207a28cc6b193, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt_1.013
+    second: {fileID: 2100000, guid: 15178885a703ec94881654bba09efb4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face_skin_mt_1.014
+    second: {fileID: 2100000, guid: 7113fb49bb831fd4b8a4efc211041e5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_mt
+    second: {fileID: 2100000, guid: 26e14af902fb43f43ae77b230e3bf687, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 00cha_00_01naru_mdl_def_00_00_spe_512
+    second: {fileID: 2800000, guid: a2068eca46485f247836283bab00739d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pc001_01_bottom00
+    second: {fileID: 2800000, guid: 663049f8a82811749acad13bd2785d0c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pc001_01_bottom01
+    second: {fileID: 2800000, guid: 2ce7e320f681fa84fa74ca64d528664a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pc001_01_top00
+    second: {fileID: 2800000, guid: 4adeb843b4dde09439814f38ff9abab3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pc001_01_top01
+    second: {fileID: 2800000, guid: cae984c2617e00e41aa524fcf470235d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pc001_face1
+    second: {fileID: 2800000, guid: 5ad0eb2110fbdad47b5eb49db5568043, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Turn Right
+      takeName: Turn Right
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Turn Left
+      takeName: Turn Left
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Yu_Body|Idle
+      takeName: Yu_Body|Idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Yu_Body|Run
+      takeName: Yu_Body|Run
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Yu_Body|Turn Left
+      takeName: Yu_Body|Turn Left
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Yu_Body|Turn Right
+      takeName: Yu_Body|Turn Right
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Yu_Body|Walk
+      takeName: Yu_Body|Walk
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: YuNarukamiAnimated(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Yu_Body
+      parentName: YuNarukamiAnimated(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00000008146034, y: -0, z: -0, w: 1}
+      scale: {x: 2.54, y: 2.54, z: 2.54}
+    - name: root
+      parentName: Yu_Body
+      position: {x: -1.7763224e-17, y: 1.1068985, z: 0.00000012013832}
+      rotation: {x: -0.68966675, y: -6.5671177e-13, z: 0.0000035020623, w: 0.724127}
+      scale: {x: 1, y: 1.0000013, z: 1.0000013}
+    - name: L_jacketA_00
+      parentName: root
+      position: {x: -0.06306406, y: -0.08558931, z: 0.010127798}
+      rotation: {x: 0.6626459, y: 0.1667227, z: -0.36715147, w: -0.6311132}
+      scale: {x: 1.0000002, y: 1.0000014, z: 1.0000013}
+    - name: L_jacketA_00_end
+      parentName: L_jacketA_00
+      position: {x: -0, y: 0.1537496, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_jacketB_00
+      parentName: root
+      position: {x: -0.14789964, y: 0.024933884, z: 0.015030146}
+      rotation: {x: 0.71156216, y: -0.10643109, z: -0.1518997, w: -0.67770076}
+      scale: {x: 1.0000001, y: 1.0000043, z: 1.0000043}
+    - name: L_jacketB_00_end
+      parentName: L_jacketB_00
+      position: {x: -0, y: 0.13896295, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_jacketC_00
+      parentName: root
+      position: {x: -0.06834882, y: 0.11042467, z: -0.0020006483}
+      rotation: {x: 0.49031177, y: -0.59417176, z: 0.43415135, w: -0.4669763}
+      scale: {x: 1.0000021, y: 1.0000025, z: 1.0000012}
+    - name: L_jacketC_00_end
+      parentName: L_jacketC_00
+      position: {x: -0, y: 0.13655812, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_jacketA_00
+      parentName: root
+      position: {x: 0.06306328, y: -0.08595832, z: 0.0025734743}
+      rotation: {x: 0.66203266, y: -0.1616177, z: 0.37152386, w: -0.63052565}
+      scale: {x: 1.0000007, y: 1.0000019, z: 1.0000023}
+    - name: R_jacketA_00_end
+      parentName: R_jacketA_00
+      position: {x: -0, y: 0.14646591, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_jacketB_00
+      parentName: root
+      position: {x: 0.14789966, y: 0.024932496, z: 0.015032459}
+      rotation: {x: 0.71017665, y: 0.11377202, z: 0.15879591, w: -0.6763794}
+      scale: {x: 1, y: 1.000003, z: 1.000003}
+    - name: R_jacketB_00_end
+      parentName: R_jacketB_00
+      position: {x: -0, y: 0.13192356, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_jacketC_00
+      parentName: root
+      position: {x: 0.068349905, y: 0.11005549, z: -0.00955127}
+      rotation: {x: -0.4898055, y: -0.5990957, z: 0.42843223, w: 0.46649852}
+      scale: {x: 1.0000018, y: 1.0000025, z: 1.0000025}
+    - name: R_jacketC_00_end
+      parentName: R_jacketC_00
+      position: {x: -0, y: 0.1292757, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hip
+      parentName: root
+      position: {x: -0.00000042590779, y: -0.0014754054, z: -0.04991002}
+      rotation: {x: 0.7223731, y: -0.0004374185, z: 0.00045560245, w: -0.6915032}
+      scale: {x: 1.0000001, y: 1.0000035, z: 1.0000031}
+    - name: L_upleg
+      parentName: hip
+      position: {x: -0.07283818, y: 0.07054577, z: -0.00009166447}
+      rotation: {x: -0.000006018031, y: 0.9999751, z: 0.007034718, w: 0.000628293}
+      scale: {x: 1.0000035, y: 1.0000044, z: 1.0000013}
+    - name: L_knee
+      parentName: L_upleg
+      position: {x: 0.0000000020026119, y: 0.44747004, z: 0.0000000012813598}
+      rotation: {x: -0.028366052, y: -0.0000013111858, z: -0.000000035382982, w: 0.99959767}
+      scale: {x: 1.0000015, y: 1.0000019, z: 0.9999998}
+    - name: L_foot
+      parentName: L_knee
+      position: {x: 0.000000001366399, y: 0.4441361, z: -0.000000003501982}
+      rotation: {x: -0.00000030000848, y: -0.8352386, z: -0.5498877, w: -0.00000046118714}
+      scale: {x: 1.0000015, y: 1.000002, z: 1.0000032}
+    - name: L_foot_end
+      parentName: L_foot
+      position: {x: -0, y: 0.14531788, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_upleg
+      parentName: hip
+      position: {x: 0.07283818, y: 0.07054128, z: 0.00009166906}
+      rotation: {x: -0.00000602361, y: 0.9999751, z: 0.0070346585, w: 0.0006290082}
+      scale: {x: 1.0000035, y: 1.0000045, z: 1.0000013}
+    - name: R_knee
+      parentName: R_upleg
+      position: {x: -0.0000000012442706, y: 0.44747388, z: 0.0000000027692055}
+      rotation: {x: -0.028366111, y: -0.00000017194543, z: -3.842615e-10, w: 0.99959767}
+      scale: {x: 1.000002, y: 1.0000024, z: 0.9999998}
+    - name: R_foot
+      parentName: R_knee
+      position: {x: -0.0000000068502946, y: 0.44413608, z: 2.4992403e-10}
+      rotation: {x: -0.00000003756196, y: -0.8352387, z: -0.5498876, w: -0.0000004613515}
+      scale: {x: 1.0000019, y: 1.0000006, z: 1.0000024}
+    - name: R_foot_end
+      parentName: R_foot
+      position: {x: -0, y: 0.14531797, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_00
+      parentName: root
+      position: {x: 0.00000009352314, y: 0.00063125935, z: 0.018698134}
+      rotation: {x: 0.6823451, y: 0.0000010749943, z: -0.0000045935913, w: 0.7310303}
+      scale: {x: 1, y: 0.9999997, z: 0.9999997}
+    - name: spine_01
+      parentName: spine_00
+      position: {x: 7.193357e-14, y: 0.1283365, z: -0.0000000026821974}
+      rotation: {x: -0.011501788, y: -0.000000031733688, z: 0.0000014281153, w: 0.99993384}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: L_collar
+      parentName: spine_01
+      position: {x: -0.030757837, y: 0.25861633, z: -0.023006903}
+      rotation: {x: 0.8121743, y: -0.5830163, z: -0.012572701, w: -0.017518232}
+      scale: {x: 1.0000008, y: 1.0000013, z: 1.0000019}
+    - name: L_shoulder
+      parentName: L_collar
+      position: {x: -0.00000007636845, y: 0.12739834, z: -0.0000000021979212}
+      rotation: {x: -0.0000015115362, y: -0.00000093132235, z: 0.13210112, w: 0.9912363}
+      scale: {x: 1.0000007, y: 1, z: 1.0000002}
+    - name: L_ellbow
+      parentName: L_shoulder
+      position: {x: -0.000000024959444, y: 0.20999996, z: 0.000000007152557}
+      rotation: {x: -0.000004290878, y: 0.00000045915755, z: -0.000002481043, w: 1}
+      scale: {x: 0.9999997, y: 1.0000014, z: 1.0000008}
+    - name: L_ellbow_01
+      parentName: L_ellbow
+      position: {x: -0.00000005012145, y: 0.113357045, z: 0.000000109076495}
+      rotation: {x: 0.0000043320183, y: -0.00000032685116, z: 0.000002332032, w: 1}
+      scale: {x: 1.0000012, y: 1.0000018, z: 1.0000024}
+    - name: L_ellbow_01_end
+      parentName: L_ellbow_01
+      position: {x: -0, y: 0.15972303, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_hand
+      parentName: L_ellbow
+      position: {x: -0.000000019147992, y: 0.20608896, z: -0.00000008940697}
+      rotation: {x: 0.008112138, y: 0.013393833, z: 0.0392678, w: 0.9991061}
+      scale: {x: 1.0000018, y: 1.0000033, z: 1.0000026}
+    - name: L_buki
+      parentName: L_hand
+      position: {x: 0.00018259104, y: 0.06358658, z: 0.0030025789}
+      rotation: {x: -0.007828754, y: -0.013559532, z: -0.05994274, w: 0.99807906}
+      scale: {x: 1.0000007, y: 1.0000014, z: 1.0000024}
+    - name: L_buki_end
+      parentName: L_buki
+      position: {x: -0, y: 0.07246321, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_hito_00
+      parentName: L_hand
+      position: {x: -0.0026193627, y: 0.08480905, z: -0.017296076}
+      rotation: {x: -0.008660238, y: -0.008339503, z: -0.037522342, w: 0.99922353}
+      scale: {x: 1.0000004, y: 1.0000017, z: 1.0000014}
+    - name: L_hito_01
+      parentName: L_hito_00
+      position: {x: 0.000000034254043, y: 0.02683705, z: -0.000000013634562}
+      rotation: {x: 0.0036460976, y: 0.0066565904, z: -0.013283163, w: 0.999883}
+      scale: {x: 1.0000012, y: 1.000001, z: 1.0000035}
+    - name: L_hito_01_end
+      parentName: L_hito_01
+      position: {x: -0, y: 0.021997409, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_ko_00
+      parentName: L_hand
+      position: {x: 0.00006354671, y: 0.07559346, z: 0.025874354}
+      rotation: {x: -0.011582137, y: -0.01269517, z: -0.034767594, w: 0.9992477}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1.0000004}
+    - name: L_ko_01
+      parentName: L_ko_00
+      position: {x: -0.000000009820797, y: 0.022435145, z: -0.000000007450581}
+      rotation: {x: -0.008871008, y: -0.025819156, z: -0.039892122, w: 0.99883103}
+      scale: {x: 1.0000007, y: 1.0000013, z: 1.0000019}
+    - name: L_ko_01_end
+      parentName: L_ko_01
+      position: {x: -0, y: 0.01926137, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_kusu_00
+      parentName: L_hand
+      position: {x: -0.0063398504, y: 0.07945549, z: 0.012244982}
+      rotation: {x: -0.009382587, y: -0.0083176615, z: -0.03667299, w: 0.9992487}
+      scale: {x: 1.0000013, y: 1.0000019, z: 1.000002}
+    - name: L_kusu_01
+      parentName: L_kusu_00
+      position: {x: 0.000000023506582, y: 0.029825434, z: -0.0000000012665987}
+      rotation: {x: -0.0024688605, y: -0.005180542, z: -0.02848153, w: 0.99957794}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000037}
+    - name: L_kusu_01_end
+      parentName: L_kusu_01
+      position: {x: -0, y: 0.02269031, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_naka_00
+      parentName: L_hand
+      position: {x: -0.0069896844, y: 0.081841506, z: -0.0025369034}
+      rotation: {x: -0.0064067715, y: -0.0045432625, z: -0.037986998, w: 0.9992474}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: L_naka_01
+      parentName: L_naka_00
+      position: {x: 0.000000004209578, y: 0.03332674, z: -0.0000000049918887}
+      rotation: {x: 0.0041634957, y: 0.0101901945, z: -0.040323056, w: 0.999126}
+      scale: {x: 1.0000015, y: 1.0000036, z: 1.0000055}
+    - name: L_naka_01_end
+      parentName: L_naka_01
+      position: {x: -0, y: 0.025750894, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_oya_00
+      parentName: L_hand
+      position: {x: 0.015703402, y: 0.032372713, z: -0.021289062}
+      rotation: {x: 0.31764925, y: 0.57994634, z: -0.18920825, w: -0.7259211}
+      scale: {x: 0.9999993, y: 0.9999985, z: 1.0000032}
+    - name: L_oya_01
+      parentName: L_oya_00
+      position: {x: 0.000000023841856, y: 0.025864493, z: 0.0000000166893}
+      rotation: {x: 0.0000013411037, y: -0.000009715552, z: -0.03526344, w: 0.9993781}
+      scale: {x: 0.99999976, y: 1.0000019, z: 1.0000004}
+    - name: L_oya_01_end
+      parentName: L_oya_01
+      position: {x: -0, y: 0.030693775, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_ellbow_Roll
+      parentName: L_shoulder
+      position: {x: 0.000000024936162, y: 0.22000007, z: 0.0000000047683715}
+      rotation: {x: -0.0000045449924, y: 0.000000021182244, z: -0.0000023022294, w: 1}
+      scale: {x: 1.0000006, y: 1.0000014, z: 1.0000026}
+    - name: L_ellbow_Roll_end
+      parentName: L_ellbow_Roll
+      position: {x: -0, y: 0.21500003, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_eri
+      parentName: spine_01
+      position: {x: -0.062240876, y: 0.30029598, z: 0.026268618}
+      rotation: {x: 0.021563295, y: 8.003198e-11, z: 0.00000007643141, w: 0.99976754}
+      scale: {x: 1.0000001, y: 0.99999964, z: 0.9999995}
+    - name: L_eri_end
+      parentName: L_eri
+      position: {x: -0, y: 0.2803566, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_collar
+      parentName: spine_01
+      position: {x: 0.030870004, y: 0.25862038, z: -0.023006722}
+      rotation: {x: 0.012574926, y: 0.017517297, z: -0.81216925, w: 0.5830233}
+      scale: {x: 1.0000019, y: 1.000002, z: 0.99999964}
+    - name: R_shoulder
+      parentName: R_collar
+      position: {x: 0.00000018000603, y: 0.12740283, z: 8.1956386e-10}
+      rotation: {x: 0.0000003278254, y: -0.0000033294766, z: -0.13209362, w: -0.9912373}
+      scale: {x: 0.99999946, y: 0.99999887, z: 0.99999994}
+    - name: R_ellbow
+      parentName: R_shoulder
+      position: {x: 0.00000026881693, y: 0.21000017, z: 0.00000017061829}
+      rotation: {x: -0.0000006315416, y: -0.0000032523078, z: -0.0000012367799, w: -1}
+      scale: {x: 1.0000027, y: 1.0000026, z: 1}
+    - name: R_ellbow_01
+      parentName: R_ellbow
+      position: {x: -0.00000013709068, y: 0.11335688, z: -0.000000085830685}
+      rotation: {x: 0.0000024617545, y: 0.0000023709247, z: 0.0000009462252, w: -1}
+      scale: {x: 0.99999833, y: 0.9999979, z: 0.9999995}
+    - name: R_ellbow_01_end
+      parentName: R_ellbow_01
+      position: {x: -0, y: 0.15972307, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_hand
+      parentName: R_ellbow
+      position: {x: 0.000000097453594, y: 0.20608898, z: -0.00000005364418}
+      rotation: {x: -0.008109968, y: -0.013395478, z: 0.03926341, w: 0.9991063}
+      scale: {x: 0.99999785, y: 0.99999934, z: 0.99999905}
+    - name: R_buki
+      parentName: R_hand
+      position: {x: 0.0001832804, y: 0.063587055, z: -0.0030029623}
+      rotation: {x: 0.00782881, y: 0.013562536, z: -0.059950206, w: 0.9980785}
+      scale: {x: 1.0000023, y: 1.000001, z: 1.0000007}
+    - name: R_buki_end
+      parentName: R_buki
+      position: {x: -0, y: 0.07246177, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_hito_00
+      parentName: R_hand
+      position: {x: -0.0026194185, y: 0.08480676, z: 0.017295895}
+      rotation: {x: -0.008656631, y: -0.008331223, z: 0.03752178, w: -0.9992236}
+      scale: {x: 1.0000038, y: 1.0000019, z: 1.0000007}
+    - name: R_hito_01
+      parentName: R_hito_00
+      position: {x: 0.00000000834465, y: 0.026837282, z: 0.00000006556511}
+      rotation: {x: -0.0036465672, y: -0.006649336, z: -0.013286248, w: 0.99988306}
+      scale: {x: 1.0000039, y: 1.000003, z: 1.0000002}
+    - name: R_hito_01_end
+      parentName: R_hito_01
+      position: {x: -0, y: 0.021997267, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_ko_00
+      parentName: R_hand
+      position: {x: 0.000063407584, y: 0.07559107, z: -0.02587435}
+      rotation: {x: -0.01158045, y: -0.012685069, z: 0.034761786, w: -0.9992481}
+      scale: {x: 1.0000017, y: 1.0000004, z: 0.99999994}
+    - name: R_ko_01
+      parentName: R_ko_00
+      position: {x: -0.000000031888483, y: 0.022435093, z: 0.000000011324882}
+      rotation: {x: 0.008873038, y: 0.02583002, z: -0.03989713, w: 0.9988305}
+      scale: {x: 1.0000013, y: 0.99999934, z: 1.0000002}
+    - name: R_ko_01_end
+      parentName: R_ko_01
+      position: {x: -0, y: 0.01926137, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_kusu_00
+      parentName: R_hand
+      position: {x: -0.006339979, y: 0.07945315, z: -0.012244958}
+      rotation: {x: -0.0093803415, y: -0.008312038, z: 0.036673877, w: -0.9992487}
+      scale: {x: 1.0000038, y: 1.0000013, z: 1.0000004}
+    - name: R_kusu_01
+      parentName: R_kusu_00
+      position: {x: -0.00000003039837, y: 0.029825363, z: 0.000000027418135}
+      rotation: {x: 0.0024659294, y: 0.005182461, z: -0.028485917, w: 0.9995777}
+      scale: {x: 1.0000026, y: 1.0000018, z: 1.0000014}
+    - name: R_kusu_01_end
+      parentName: R_kusu_01
+      position: {x: -0, y: 0.02269026, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_naka_00
+      parentName: R_hand
+      position: {x: -0.006989933, y: 0.0818392, z: 0.002536893}
+      rotation: {x: -0.0064073512, y: -0.0045459587, z: 0.03798852, w: -0.9992473}
+      scale: {x: 1.0000039, y: 1.0000015, z: 1.0000004}
+    - name: R_naka_01
+      parentName: R_naka_00
+      position: {x: 0.000000022649765, y: 0.033326708, z: -0.000000011920928}
+      rotation: {x: -0.0041655838, y: -0.010190423, z: -0.04032033, w: 0.9991262}
+      scale: {x: 1.000002, y: 1.0000008, z: 1}
+    - name: R_naka_01_end
+      parentName: R_naka_01
+      position: {x: -0, y: 0.025750795, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_oya_00
+      parentName: R_hand
+      position: {x: 0.015701747, y: 0.032373335, z: 0.021289071}
+      rotation: {x: -0.1892135, y: 0.7259229, z: 0.3176474, w: -0.57994354}
+      scale: {x: 1.0000015, y: 1, z: 1.0000031}
+    - name: R_oya_01
+      parentName: R_oya_00
+      position: {x: 0.000000047683713, y: 0.025864756, z: 0.000000010728836}
+      rotation: {x: -0.0000014752139, y: 0.00000089406905, z: 0.035261814, w: 0.9993782}
+      scale: {x: 1.0000039, y: 0.9999975, z: 1.0000004}
+    - name: R_oya_01_end
+      parentName: R_oya_01
+      position: {x: -0, y: 0.030692918, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_ellbow_Roll
+      parentName: R_shoulder
+      position: {x: -0.00000006318092, y: 0.21999994, z: 0.00000013381242}
+      rotation: {x: -0.0000019151305, y: -0.0000012880629, z: 0.00000024586276, w: 1}
+      scale: {x: 1.0000019, y: 1.0000015, z: 1.0000001}
+    - name: R_ellbow_Roll_end
+      parentName: R_ellbow_Roll
+      position: {x: -0, y: 0.21499984, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_eri
+      parentName: spine_01
+      position: {x: 0.062240772, y: 0.30029613, z: 0.02626863}
+      rotation: {x: 0.021563295, y: 7.223022e-11, z: 0.00000007678357, w: 0.99976754}
+      scale: {x: 1.0000001, y: 0.99999964, z: 0.9999995}
+    - name: R_eri_end
+      parentName: R_eri
+      position: {x: -0, y: 0.2803566, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck
+      parentName: spine_01
+      position: {x: 0.0000002114335, y: 0.2751858, z: -0.0061872313}
+      rotation: {x: 0.020344563, y: -0.00000008436867, z: 0.0000039897564, w: 0.999793}
+      scale: {x: 1, y: 0.9999993, z: 0.9999993}
+    - name: head 1
+      parentName: neck
+      position: {x: 2.9802322e-10, y: 0.08204782, z: -0.000000001322478}
+      rotation: {x: 0.044243537, y: -0.0000021052774, z: 0.0015850582, w: 0.9990195}
+      scale: {x: 1, y: 0.9999994, z: 0.9999994}
+    - name: FF_hair_00
+      parentName: head 1
+      position: {x: 0.0011202067, y: 0.14115728, z: 0.07959504}
+      rotation: {x: -0.043025702, y: 9.458745e-11, z: -0.0015889667, w: 0.99907273}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: FF_hair_00_end
+      parentName: FF_hair_00
+      position: {x: -0, y: 0.1442784, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LF_hair_00
+      parentName: head 1
+      position: {x: -0.07110979, y: 0.11355183, z: 0.037049256}
+      rotation: {x: -0.043025702, y: -1.5688784e-11, z: -0.0015889693, w: 0.99907273}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: LF_hair_00_end
+      parentName: LF_hair_00
+      position: {x: -0, y: 0.1442784, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_hair_00
+      parentName: head 1
+      position: {x: -0.05439733, y: 0.1035046, z: -0.07930581}
+      rotation: {x: -0.043025702, y: 7.2009243e-10, z: -0.0015889521, w: 0.99907273}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: L_hair_00_end
+      parentName: L_hair_00
+      position: {x: -0, y: 0.1442784, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RF_hair_00
+      parentName: head 1
+      position: {x: 0.070412666, y: 0.11149442, z: 0.04170031}
+      rotation: {x: -0.043025702, y: 7.5715434e-11, z: -0.0015889693, w: 0.99907273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RF_hair_00_end
+      parentName: RF_hair_00
+      position: {x: -0, y: 0.1442784, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_hair_00
+      parentName: head 1
+      position: {x: 0.053974252, y: 0.10318434, z: -0.07903882}
+      rotation: {x: -0.043025702, y: -1.5234036e-11, z: -0.0015889693, w: 0.99907273}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: R_hair_00_end
+      parentName: R_hair_00
+      position: {x: -0, y: 0.1442784, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_bottom
+      parentName: Yu_Body
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -7.1054274e-15, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_bottom_end
+      parentName: m_bottom
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_bottom2
+      parentName: Yu_Body
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -7.1054274e-15, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_bottom2_end
+      parentName: m_bottom2
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_hair
+      parentName: Yu_Body
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -7.1054274e-15, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_hair_end
+      parentName: m_hair
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_hair_line
+      parentName: Yu_Body
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -7.1054274e-15, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_hair_line_end
+      parentName: m_hair_line
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_tops
+      parentName: Yu_Body
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -7.1054274e-15, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_tops_end
+      parentName: m_tops
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_tops2
+      parentName: Yu_Body
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -7.1054274e-15, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_tops2_end
+      parentName: m_tops2
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_tops_Mesh3
+      parentName: YuNarukamiAnimated(Clone)
+      position: {x: -0, y: -3.85922e-23, z: 2.3687718e-16}
+      rotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
+      scale: {x: 2.5400004, y: 2.5400004, z: 2.5400004}
+    - name: m_tops_Mesh1
+      parentName: YuNarukamiAnimated(Clone)
+      position: {x: -0, y: -4.0429923e-23, z: 2.4815707e-16}
+      rotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
+      scale: {x: 2.5400004, y: 2.5400004, z: 2.5400004}
+    - name: m_bottom_Mesh1
+      parentName: YuNarukamiAnimated(Clone)
+      position: {x: -0, y: -3.6754477e-24, z: 2.2559735e-17}
+      rotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
+      scale: {x: 2.5400004, y: 2.5400004, z: 2.5400004}
+    - name: m_tops_Mesh2
+      parentName: YuNarukamiAnimated(Clone)
+      position: {x: -0, y: -3.85922e-23, z: 2.3687718e-16}
+      rotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
+      scale: {x: 2.5400004, y: 2.5400004, z: 2.5400004}
+    - name: m_bottom_Mesh2
+      parentName: YuNarukamiAnimated(Clone)
+      position: {x: -0, y: -1.12798674e-17, z: -1.8377239e-24}
+      rotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
+      scale: {x: 2.5400004, y: 2.5400004, z: 2.5400004}
+    - name: m_hair_Mesh1
+      parentName: YuNarukamiAnimated(Clone)
+      position: {x: -0, y: -4.4105374e-23, z: 2.707168e-16}
+      rotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
+      scale: {x: 2.5400004, y: 2.5400004, z: 2.5400004}
+    - name: Yu_Head
+      parentName: YuNarukamiAnimated(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00000008146034, y: -0, z: -0, w: 1}
+      scale: {x: 2.54, y: 2.54, z: 2.54}
+    - name: head
+      parentName: Yu_Head
+      position: {x: -0.0033217638, y: 1.6108514, z: -0.015016348}
+      rotation: {x: 0.0077464255, y: 0.0011609735, z: 0.004604076, w: 0.99995875}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: L_eye
+      parentName: head
+      position: {x: -0.028253082, y: 0.066394515, z: 0.039651796}
+      rotation: {x: -2.3283064e-10, y: -1.1277734e-10, z: 2.382876e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_Leye
+      parentName: L_eye
+      position: {x: 0.028253086, y: -0.08374841, z: -0.039651796}
+      rotation: {x: -2.3283064e-10, y: -1.1277734e-10, z: 2.382876e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_Leye_Mesh1
+      parentName: m_Leye
+      position: {x: 5.9604643e-10, y: 0.00000022888183, z: 0.0000000035762786}
+      rotation: {x: 2.3283064e-10, y: 6.184565e-11, z: -1.6808327e-28, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: m_Leye_Mesh1_MorphTarget1
+      parentName: m_Leye
+      position: {x: 0.0031718893, y: -0.00033794402, z: -0.0052515245}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_Leye_Mesh1_MorphTarget2
+      parentName: m_Leye
+      position: {x: 0.0031718893, y: -0.00033794402, z: -0.0052515245}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_Leye_Mesh1_MorphTarget3
+      parentName: m_Leye
+      position: {x: 0.0031718893, y: -0.00033794402, z: -0.0052515245}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_Leye_Mesh1_MorphTarget4
+      parentName: m_Leye
+      position: {x: 0.0031718893, y: -0.00033794402, z: -0.0052515245}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_Leye_Mesh1_MorphTarget5
+      parentName: m_Leye
+      position: {x: 0.0031718893, y: -0.00033794402, z: -0.0052515245}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_Leye_end
+      parentName: m_Leye
+      position: {x: -0, y: 0.096872404, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_eye
+      parentName: head
+      position: {x: 0.028251912, y: 0.06639454, z: 0.039651796}
+      rotation: {x: -2.3283064e-10, y: -1.1277734e-10, z: 2.382876e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_Reye
+      parentName: R_eye
+      position: {x: -0.028251909, y: -0.08374841, z: -0.039651796}
+      rotation: {x: -2.3283064e-10, y: -1.1277734e-10, z: 2.382876e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_Reye_Mesh1
+      parentName: m_Reye
+      position: {x: -2.9802322e-10, y: 0.00000022888183, z: 0.0000000011920929}
+      rotation: {x: 2.3283064e-10, y: 6.184565e-11, z: -1.6808327e-28, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: m_Reye_Mesh1_MorphTarget1
+      parentName: m_Reye
+      position: {x: 0.003171887, y: -0.0003382492, z: -0.0052515194}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_Reye_Mesh1_MorphTarget2
+      parentName: m_Reye
+      position: {x: 0.003171887, y: -0.0003382492, z: -0.0052515194}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_Reye_Mesh1_MorphTarget3
+      parentName: m_Reye
+      position: {x: 0.003171887, y: -0.0003382492, z: -0.0052515194}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_Reye_Mesh1_MorphTarget4
+      parentName: m_Reye
+      position: {x: 0.003171887, y: -0.0003382492, z: -0.0052515194}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_Reye_Mesh1_MorphTarget5
+      parentName: m_Reye
+      position: {x: 0.003171887, y: -0.0003382492, z: -0.0052515194}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_Reye_end
+      parentName: m_Reye
+      position: {x: -0, y: 0.0968721, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_face00
+      parentName: head
+      position: {x: -0.0000000019159052, y: -1.6106267, z: 0.02054871}
+      rotation: {x: -2.3283064e-10, y: -1.1277734e-10, z: 2.382876e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_face00_Mesh1
+      parentName: m_face00
+      position: {x: -0, y: 0, z: -0.0000000035762786}
+      rotation: {x: 2.3283064e-10, y: 6.184565e-11, z: -1.6808327e-28, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: m_face00_Mesh1_MorphTarget1
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh1_MorphTarget2
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh1_MorphTarget3
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh1_MorphTarget4
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh1_MorphTarget5
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh1_MorphTarget6
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh1_MorphTarget7
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh1_MorphTarget8
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh1_MorphTarget9
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh1_MorphTarget10
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh1_MorphTarget11
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh1_MorphTarget12
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh1_MorphTarget13
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh1_MorphTarget14
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh2
+      parentName: m_face00
+      position: {x: -0, y: 0, z: -0.0000000035762786}
+      rotation: {x: 2.3283064e-10, y: 6.184565e-11, z: -1.6808327e-28, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: m_face00_Mesh2_MorphTarget1
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh2_MorphTarget2
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh2_MorphTarget3
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh2_MorphTarget4
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh2_MorphTarget5
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh2_MorphTarget6
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh2_MorphTarget7
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh2_MorphTarget8
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh2_MorphTarget9
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh2_MorphTarget10
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh2_MorphTarget11
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh2_MorphTarget12
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh2_MorphTarget13
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh2_MorphTarget14
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh3
+      parentName: m_face00
+      position: {x: -0, y: 0, z: -0.0000000035762786}
+      rotation: {x: 2.3283064e-10, y: 6.184565e-11, z: -1.6808327e-28, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: m_face00_Mesh3_MorphTarget1
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh3_MorphTarget2
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh3_MorphTarget3
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh3_MorphTarget4
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh3_MorphTarget5
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh3_MorphTarget6
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh3_MorphTarget7
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh3_MorphTarget8
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh3_MorphTarget9
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh3_MorphTarget10
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh3_MorphTarget11
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh3_MorphTarget12
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh3_MorphTarget13
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_Mesh3_MorphTarget14
+      parentName: m_face00
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face00_end
+      parentName: m_face00
+      position: {x: -0, y: 1.0301985, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_face01
+      parentName: head
+      position: {x: -0.0000000019159052, y: -1.6106267, z: 0.02054871}
+      rotation: {x: -2.3283064e-10, y: -1.1277734e-10, z: 2.382876e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_face01_Mesh1
+      parentName: m_face01
+      position: {x: -0, y: 0, z: -0.0000000035762786}
+      rotation: {x: 2.3283064e-10, y: 6.184565e-11, z: -1.6808327e-28, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: m_face01_Mesh1_MorphTarget1
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh1_MorphTarget2
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh1_MorphTarget3
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh1_MorphTarget4
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh1_MorphTarget5
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh1_MorphTarget6
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh1_MorphTarget7
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh1_MorphTarget8
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh1_MorphTarget9
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh1_MorphTarget10
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh1_MorphTarget11
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh1_MorphTarget12
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh1_MorphTarget13
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh1_MorphTarget14
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh2
+      parentName: m_face01
+      position: {x: -0, y: 0, z: -0.0000000035762786}
+      rotation: {x: 2.3283064e-10, y: 6.184565e-11, z: -1.6808327e-28, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: m_face01_Mesh2_MorphTarget1
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh2_MorphTarget2
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh2_MorphTarget3
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh2_MorphTarget4
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh2_MorphTarget5
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh2_MorphTarget6
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh2_MorphTarget7
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh2_MorphTarget8
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh2_MorphTarget9
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh2_MorphTarget10
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh2_MorphTarget11
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh2_MorphTarget12
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh2_MorphTarget13
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_Mesh2_MorphTarget14
+      parentName: m_face01
+      position: {x: -0.011573504, y: 0.00023956299, z: 0.019412227}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_face01_end
+      parentName: m_face01
+      position: {x: -0, y: 1.0301985, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_mayu00
+      parentName: head
+      position: {x: -7.508788e-10, y: -0.010626632, z: 0.02054871}
+      rotation: {x: -2.3283064e-10, y: -1.1277734e-10, z: 2.382876e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_mayu00_Mesh1
+      parentName: m_mayu00
+      position: {x: 0.000000001490116, y: 0.000000076293944, z: -0.000000005364418}
+      rotation: {x: 2.3283064e-10, y: 6.184565e-11, z: -1.6808327e-28, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: m_mayu00_Mesh1_MorphTarget1
+      parentName: m_mayu00
+      position: {x: 0.003187707, y: -0.000020904541, z: -0.0053582005}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_mayu00_Mesh1_MorphTarget2
+      parentName: m_mayu00
+      position: {x: 0.003187707, y: -0.000020904541, z: -0.0053582005}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_mayu00_Mesh1_MorphTarget3
+      parentName: m_mayu00
+      position: {x: 0.003187707, y: -0.000020904541, z: -0.0053582005}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_mayu00_Mesh1_MorphTarget4
+      parentName: m_mayu00
+      position: {x: 0.003187707, y: -0.000020904541, z: -0.0053582005}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_mayu00_Mesh1_MorphTarget5
+      parentName: m_mayu00
+      position: {x: 0.003187707, y: -0.000020904541, z: -0.0053582005}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_mayu00_Mesh1_MorphTarget6
+      parentName: m_mayu00
+      position: {x: 0.003187707, y: -0.000020904541, z: -0.0053582005}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_mayu00_Mesh1_MorphTarget7
+      parentName: m_mayu00
+      position: {x: 0.003187707, y: -0.000020904541, z: -0.0053582005}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_mayu00_Mesh1_MorphTarget8
+      parentName: m_mayu00
+      position: {x: 0.003187707, y: -0.000020904541, z: -0.0053582005}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_mayu00_Mesh1_MorphTarget9
+      parentName: m_mayu00
+      position: {x: 0.003187707, y: -0.000020904541, z: -0.0053582005}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_mayu00_Mesh1_MorphTarget10
+      parentName: m_mayu00
+      position: {x: 0.003187707, y: -0.000020904541, z: -0.0053582005}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_mayu00_Mesh1_MorphTarget11
+      parentName: m_mayu00
+      position: {x: 0.003187707, y: -0.000020904541, z: -0.0053582005}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_mayu00_Mesh1_MorphTarget12
+      parentName: m_mayu00
+      position: {x: 0.003187707, y: -0.000020904541, z: -0.0053582005}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_mayu00_Mesh1_MorphTarget13
+      parentName: m_mayu00
+      position: {x: 0.003187707, y: -0.000020904541, z: -0.0053582005}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_mayu00_Mesh1_MorphTarget14
+      parentName: m_mayu00
+      position: {x: 0.003187707, y: -0.000020904541, z: -0.0053582005}
+      rotation: {x: -0.007746424, y: -0.0011609733, z: -0.004604076, w: 0.99995875}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+    - name: m_mayu00_end
+      parentName: m_mayu00
+      position: {x: -0, y: 1.0301983, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_sirome
+      parentName: head
+      position: {x: -0.0000000019159052, y: -1.6106267, z: 0.02054871}
+      rotation: {x: -2.3283064e-10, y: -1.1277734e-10, z: 2.382876e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_sirome_Mesh1
+      parentName: m_sirome
+      position: {x: -0, y: 0, z: -0.0000000035762786}
+      rotation: {x: 2.3283064e-10, y: 6.184565e-11, z: -1.6808327e-28, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: m_sirome_end
+      parentName: m_sirome
+      position: {x: -0, y: 1.0301985, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_face00_line
+      parentName: head
+      position: {x: -0.0000000019159052, y: -1.6106267, z: 0.02054871}
+      rotation: {x: -2.3283064e-10, y: -1.1277734e-10, z: 2.382876e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_face00_line_end
+      parentName: m_face00_line
+      position: {x: -0, y: 1.0301985, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_face01_line
+      parentName: head
+      position: {x: -0.0000000019159052, y: -1.6106267, z: 0.02054871}
+      rotation: {x: -2.3283064e-10, y: -1.1277734e-10, z: 2.382876e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_face01_line_end
+      parentName: m_face01_line
+      position: {x: -0, y: 1.0301985, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: F_mepati_line
+      parentName: Yu_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: F_mepati_line_end
+      parentName: F_mepati_line
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: blend_BLOW
+      parentName: Yu_Head
+      position: {x: -0, y: 1.5999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: blend_BLOW_end
+      parentName: blend_BLOW
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: blend_FACE
+      parentName: Yu_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: blend_FACE_end
+      parentName: blend_FACE
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: blend_LEYE
+      parentName: Yu_Head
+      position: {x: -0, y: 1.5999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: blend_LEYE_end
+      parentName: blend_LEYE
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: blend_MOUTH
+      parentName: Yu_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: blend_MOUTH_end
+      parentName: blend_MOUTH
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: blend_REYE
+      parentName: Yu_Head
+      position: {x: -0, y: 1.5999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: blend_REYE_end
+      parentName: blend_REYE
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

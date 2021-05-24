@@ -1,0 +1,115 @@
+- CalendarDate:
+  - 1:
+    - 03/05
+    - TimeOfDay:
+      - 1:
+        - Early Morning
+        - Adachi: Morning, Narukami. Aren't you running late for school?
+        - Adachi: Get going, then, leave me alone.
+        - EOD: EOD
+      - 2:
+        - Morning
+        - Adachi: Hello again, Narukami. Have you had your morning coffee yet?
+        - LayerToReturnTo: LayerToReturnTo
+        - ?:
+          - 1: 
+            - Yeah.
+            - Adachi: I see. Coffee is good for you.
+            - GoBack: GoBack
+          - 2:
+            - Nah.
+            - Adachi: I see. Coffee isn't that good for someone your age.
+            - GoBack: GoBack
+          - 3:
+            - ...
+            - Adachi: Okay...
+            - GoBack: GoBack
+        - Adachi: Anyway, i should get going now.
+        - Adachi: See ya!
+        - EOD: EOD
+      - 3:
+        - After School
+        - Adachi: Hello, Narukami.
+        - Adachi: Pretty cool conversation system, eh?
+        - ?:
+          - 1:
+            - Really awesome
+            - Adachi: Indeed, I agree.
+            - Adachi: Most definitely.
+            - EOD: EOD
+          - 2:
+            - Not that much, honestly
+            - Adachi: I am shocked.
+            - Adachi: How could you say such a thing?
+            - EOD: EOD
+          - 3:
+            - ...
+            - Adachi: ...
+            - Adachi: Okay...
+            - EOD: EOD
+      - 4:
+        - Afternoon
+        - Adachi: Oh boy, do i love existing here
+        - EOD: EOD
+      - 5:
+        - Evening
+        - Adachi: Narukami, shouldn't you be in bed now? It is pretty late.
+        - Adachi: Go on, get going.
+        - EOD: EOD
+  - 2:
+    - 04/05
+    - TimeOfDay:
+      - 1:
+        - Early Morning
+        - Adachi: Morning again, Narukami.
+        - Adachi: Today is another day.
+        - EOD: EOD
+      - 2:
+        - Morning
+        - Adachi: Hello again, Narukami. Have you had your morning coffee yet?
+        - LayerToReturnTo: LayerToReturnTo
+        - ?:
+          - 1: 
+            - Again, yes.
+            - Adachi: Sassy boy. I see. Dojima has taught you well.
+            - GoBack: GoBack
+          - 2:
+            - Nah.
+            - Adachi: I see. Coffee isn't that good for someone your age.
+            - GoBack: GoBack
+          - 3:
+            - ...
+            - Adachi: Okay...
+            - GoBack: GoBack
+        - Adachi: Anyway, i should get going now.
+        - Adachi: See ya!
+        - EOD: EOD
+      - 3:
+       - After School
+        - Adachi: Hello, Narukami.
+        - Adachi: Pretty cool conversation system, eh?
+        - ?:
+          - 1:
+            - Really awesome
+            - Adachi: Indeed, I agree.
+            - Adachi: Most definitely.
+            - EOD: EOD
+          - 2:
+            - Not that much, honestly
+            - Adachi: I am shocked.
+            - Adachi: How could you say such a thing?
+            - EOD: EOD
+          - 3:
+            - ...
+            - Adachi: ...
+            - Adachi: Okay...
+            - EOD: EOD
+      - 4:
+        - Afternoon
+        - Adachi: Oh boy, do i love existing here
+        - EOD: EOD
+      - 5:
+        - Evening
+        - Adachi: Narukami, shouldn't you be in bed now? It is pretty late.
+        - Adachi: Go on, get going.
+        - EOD: EOD
